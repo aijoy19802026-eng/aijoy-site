@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — AI Joy / Trend Scout Publisher</title>
+<style>
+  :root {
+    --bg: #faf9f6;
+    --surface: #ffffff;
+    --text: #201f2b;
+    --text-secondary: #5c5a6b;
+    --text-muted: #8b899a;
+    --border: #e6e4de;
+    --accent: #5b4fe8;
+    --accent-soft: #eeecfc;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #17161d;
+      --surface: #1e1d26;
+      --text: #eeedf2;
+      --text-secondary: #a8a6b5;
+      --text-muted: #726f82;
+      --border: #322f3d;
+      --accent: #9b90ff;
+      --accent-soft: #2a2545;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #17161d;
+    --surface: #1e1d26;
+    --text: #eeedf2;
+    --text-secondary: #a8a6b5;
+    --text-muted: #726f82;
+    --border: #322f3d;
+    --accent: #9b90ff;
+    --accent-soft: #2a2545;
+  }
+  :root[data-theme="light"] {
+    --bg: #faf9f6;
+    --surface: #ffffff;
+    --text: #201f2b;
+    --text-secondary: #5c5a6b;
+    --text-muted: #8b899a;
+    --border: #e6e4de;
+    --accent: #5b4fe8;
+    --accent-soft: #eeecfc;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+  }
+  .wrap {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 4rem 1.5rem 6rem;
+  }
+  .eyebrow {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    background: var(--accent-soft);
+    padding: 4px 10px;
+    border-radius: 20px;
+    margin-bottom: 1.25rem;
+  }
+  h1 {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    margin: 0 0 0.5rem;
+    text-wrap: balance;
+  }
+  .meta {
+    font-size: 14px;
+    color: var(--text-muted);
+    margin: 0 0 3rem;
+  }
+  h2 {
+    font-size: 19px;
+    font-weight: 600;
+    margin: 2.5rem 0 0.75rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+  }
+  h2:first-of-type {
+    border-top: none;
+    padding-top: 0;
+  }
+  p {
+    font-size: 16px;
+    color: var(--text-secondary);
+    margin: 0 0 1rem;
+    max-width: 60ch;
+  }
+  ul {
+    margin: 0 0 1rem;
+    padding-left: 1.25rem;
+  }
+  li {
+    font-size: 16px;
+    color: var(--text-secondary);
+    margin-bottom: 0.4rem;
+  }
+  strong { color: var(--text); font-weight: 600; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+  .footer {
+    margin-top: 3.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+</style>
+
+
+</head>
+<body>
+<div class="wrap">
+  <span class="eyebrow">AI Joy</span>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Effective July 15, 2026 — applies to the "Trend Scout Publisher" application</p>
+
+  <h2>What this application is</h2>
+  <p>Trend Scout Publisher is a personal automation tool operated by a single individual (the "Operator") to publish pre-approved text, image, and video content to social media accounts owned by the Operator, under the AI Joy brand. It is not offered as a service to the public and does not manage accounts on behalf of any third party.</p>
+
+  <h2>Information we access</h2>
+  <p>The application accesses only what is required to publish content to the Operator's own connected accounts:</p>
+  <ul>
+    <li>Account and page identifiers (for example, a TikTok, Instagram, Facebook, or LinkedIn account ID) needed to address the correct destination for a post.</li>
+    <li>Access tokens issued directly by each platform's own authorization flow, used solely to publish content to that same account.</li>
+  </ul>
+  <p>No information is collected from viewers, followers, or any third party who encounters the published content.</p>
+
+  <h2>How information is stored</h2>
+  <p>Access tokens are stored in an encrypted credential store on infrastructure operated by the Operator and are never written to plaintext files or shared databases. Non-secret routing data (account IDs, category labels) is kept separately in a private database used only to route content to the correct account.</p>
+
+  <h2>How information is used</h2>
+  <p>Stored credentials are used exclusively to publish content that the Operator has personally reviewed and approved before it is sent to a platform's API. Nothing is used for advertising, profiling, or analytics beyond basic publish-success confirmation.</p>
+
+  <h2>Sharing with third parties</h2>
+  <p>We do not sell, rent, or share any information with third parties. Content is sent only to the platform it is intended for (for example, a TikTok post is sent only to TikTok's API).</p>
+
+  <h2>Data retention and deletion</h2>
+  <p>Access tokens are retained only for as long as the corresponding account remains connected to the application. The Operator can revoke access at any time via the connected platform's own account settings, which immediately invalidates the stored token.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>This policy may be updated from time to time to reflect changes in the application. The effective date above indicates the last revision.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy can be sent to <a href="mailto:jan_joy@web.de">jan_joy@web.de</a>.</p>
+
+  <div class="footer">AI Joy — Trend Scout Publisher</div>
+</div>
+
+</body>
+</html>
